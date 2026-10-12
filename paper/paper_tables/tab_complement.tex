@@ -1,0 +1,9 @@
+\begin{table}[t]\centering\small\caption{Complementarity of MARBERTv2 (seed-averaged) and the retrieval-augmented LLM on the same 400 messages per test set (\% of messages). The last column is the accuracy of an oracle that always picks the correct system when one of them is right.}\label{tab:complement}
+\begin{tabular}{lrrrrr}\toprule
+Test & Both & Encoder only & LLM only & Neither & Oracle \\\midrule
+MSA & 90.8 & 2.2 & 2.0 & 5.0 & 95.0 \\
+Pal. & 84.0 & 7.0 & 2.5 & 6.5 & 93.5 \\
+Saudi & 76.8 & 9.2 & 5.5 & 8.5 & 91.5 \\
+Moroccan & 68.0 & 6.5 & 12.0 & 13.5 & 86.5 \\
+Tunisian & 51.0 & 8.2 & 18.2 & 22.5 & 77.5 \\
+\bottomrule\end{tabular}\end{table}

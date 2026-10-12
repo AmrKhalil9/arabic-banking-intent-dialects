@@ -1,0 +1,24 @@
+\documentclass[border=2pt]{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.05]{Amiri}
+\usepackage{booktabs}
+\begin{document}\small
+\begin{tabular}{@{}l r l l r@{}}\toprule
+Dialect & Message & Gold intent & Wrong answer & Enc. conf.\\\midrule
+\multicolumn{5}{@{}l}{\textit{Rescued: encoder unsure and wrong, LLM correct}}\\
+Moroccan & \textarabic{بعض دفعاتي بالكارت كتبان مختلفة على منين شريت المنتجات. علاش هكا؟} & card payment not recognised & transaction charged twice & 0.18\\
+Moroccan & \textarabic{حاولت ندير ترونسفير ولكن ماخدمش.} & failed transfer & declined cash withdrawal & 0.21\\
+Tunisian & \textarabic{ياخي تحويل SWIFT مقبول؟} & top up by bank transfer charge & exchange via app & 0.15\\
+Tunisian & \textarabic{تنجمش تعرف المشكلة متاع الكارطة البنكية متاعي؟} & card not working & top up failed & 0.17\\
+Saudi & \textarabic{عندي هنا كرت وهمي ينرمى، قدر تقول لي وش أسوي فيه؟} & get disposable virtual card & card linking & 0.25\\
+Saudi & \textarabic{وين أحسن مكان أقدر أخذ منه كرت وهمي ينرمى؟} & get disposable virtual card & order physical card & 0.32\\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Harmed: encoder unsure but correct, LLM wrong}}\\
+Moroccan & \textarabic{ترونسفير ديالي ما مشاش.} & failed transfer & transfer not received by recipient & 0.34\\
+Tunisian & \textarabic{علاش ما انّجّمش نتحصّل على فلوس من أي ديستريبتور ؟} & declined cash withdrawal & atm support & 0.18\\
+Saudi & \textarabic{أدري إني دخلت المعلومات الصح، بس ما فيه رصيد بحسابي} & topping up by card & balance not updated after cheque or cash deposit & 0.35\\
+\bottomrule\end{tabular}
+\end{document}

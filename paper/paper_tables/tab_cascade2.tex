@@ -1,0 +1,10 @@
+\begin{table*}[t]\centering\small\caption{Cascades built from other components, each with its threshold chosen on validation by Algorithm~\ref{alg:tau}: accuracy (\%) on the 400-message subsamples and share of Tunisian traffic sent to the second stage. The first row is the cascade of Table~\ref{tab:cascade}.}\label{tab:cascade2}
+\begin{tabular}{lrrrrrrr}\toprule
+First stage $\to$ second stage & $\tau$ & MSA & Pal. & Saudi & Moroccan & Tunisian & Routed (Tun.) \\\midrule
+MARBERTv2 $\to$ LLM (10 retrieved) & 0.60 & 93.2 & 90.8 & 86.0 & 79.2 & 67.5 & 33.0 \\
+AraBERTv02 $\to$ LLM (10 retrieved) & 0.81 & 92.5 & 90.5 & 84.0 & 80.2 & 69.2 & 53.2 \\
+MARBERTv2+AraBERTv02 $\to$ LLM (10 retrieved) & 0.70 & 92.5 & 90.5 & 84.2 & 80.0 & 69.8 & 53.0 \\
+MARBERTv2 $\to$ LLM (zero-shot) & 0.45 & 91.8 & 90.8 & 84.8 & 75.0 & 63.7 & 20.5 \\
+MARBERTv2 $\to$ bge-m3 $k$NN & 0.45 & 92.2 & 90.2 & 86.2 & 76.0 & 60.0 & 20.5 \\
+MARBERTv2+AraBERTv02 ensemble (no LLM) & -- & 92.8 & 92.8 & 86.0 & 77.5 & 62.5 & 0.0 \\
+\bottomrule\end{tabular}\end{table*}

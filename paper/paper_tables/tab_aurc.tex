@@ -1,0 +1,12 @@
+\begin{table*}[t]\centering\small\caption{Selective prediction for every system. Left: area under the risk--coverage curve (AURC, \%; lower is better). Right: share of traffic (\%) that can be answered automatically at $\geq$95\% accuracy.}\label{tab:aurc}
+\begin{tabular}{lrrrrrrrrrr}\toprule
+& \multicolumn{5}{c}{AURC} & \multicolumn{5}{c}{Coverage at 95\% accuracy}\\
+System & MSA & Pal. & Saudi & Moroccan & Tunisian & MSA & Pal. & Saudi & Moroccan & Tunisian \\\midrule
+MARBERTv2 & 1.9 & 2.6 & 4.2 & 6.8 & 18.4 & 92 & 87 & 74 & 58 & 21 \\
+AraBERTv02 & 1.4 & 1.9 & 4.1 & 5.5 & 18.3 & 94 & 90 & 71 & 63 & 20 \\
+CAMeLBERT-mix & 1.6 & 2.2 & 5.7 & 8.3 & 30.3 & 92 & 86 & 61 & 51 & 13 \\
+XLM-R base & 1.7 & 2.7 & 6.0 & 10.1 & 22.9 & 90 & 81 & 59 & 44 & 13 \\
+bge-m3 $k$NN & 2.3 & 5.1 & 8.0 & 11.6 & 18.3 & 84 & 65 & 48 & 41 & 34 \\
+Laya (RLCD) & 4.3 & 6.6 & 10.9 & 13.8 & 39.7 & 72 & 58 & 30 & 29 & 4 \\
+Laya (CE) & 2.0 & 3.0 & 6.8 & 10.9 & 38.4 & 89 & 80 & 51 & 34 & 1 \\
+\bottomrule\end{tabular}\end{table*}

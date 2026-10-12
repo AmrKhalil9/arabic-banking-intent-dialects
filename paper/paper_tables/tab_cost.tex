@@ -1,0 +1,9 @@
+\begin{table}[t]\centering\small\caption{Expected GPU latency per message (ms): encoder only, retrieval-augmented LLM only, and the cascade (encoder for every message plus the LLM for the routed share), and the cascade's latency as a percentage of the LLM-only system.}\label{tab:cost}
+\begin{tabular}{lrrrr}\toprule
+Test & Encoder & LLM & Cascade & \% of LLM \\\midrule
+MSA & 7.2 & 403 & 25 & 6 \\
+Pal. & 7.2 & 403 & 35 & 9 \\
+Saudi & 7.2 & 403 & 52 & 13 \\
+Moroccan & 7.2 & 403 & 89 & 22 \\
+Tunisian & 7.2 & 403 & 140 & 35 \\
+\bottomrule\end{tabular}\end{table}

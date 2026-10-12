@@ -1,0 +1,31 @@
+\begin{table}[t]\centering\small\caption{Per-intent recall (\%) on the Tunisian test set: seed-averaged MARBERTv2 on all messages, and the retrieval-augmented LLM on the subsampled messages of that intent (number in parentheses).}\label{tab:tunintents}
+\begin{tabular}{lrrr}\toprule
+Intent & $n$ & MARBERTv2 & LLM \\\midrule
+card payment fee charged & 60 & 3.3 & 5 (22) \\
+pin blocked & 40 & 10.0 & 50 (16) \\
+top up reverted & 10 & 10.0 & 0 (3) \\
+contactless not working & 47 & 12.8 & 93 (15) \\
+passcode forgotten & 26 & 15.4 & 50 (12) \\
+card acceptance & 38 & 36.8 & 94 (16) \\
+top up by bank transfer charge & 53 & 41.5 & 44 (18) \\
+supported cards and currencies & 43 & 46.5 & 76 (17) \\
+declined cash withdrawal & 47 & 46.8 & 38 (24) \\
+top up limits & 46 & 47.8 & 69 (13) \\
+pending card payment & 17 & 52.9 & 62 (8) \\
+card arrival & 34 & 55.9 & 50 (14) \\
+wrong amount of cash received & 50 & 64.0 & 70 (23) \\
+exchange rate & 40 & 65.0 & 85 (13) \\
+card linking & 54 & 70.4 & 86 (22) \\
+automatic top up & 4 & 75.0 & 100 (1) \\
+lost or stolen card & 53 & 77.4 & 84 (19) \\
+card not working & 40 & 82.5 & 82 (17) \\
+pending top up & 65 & 84.6 & 44 (25) \\
+card payment wrong exchange rate & 7 & 85.7 & 50 (2) \\
+transfer not received by recipient & 45 & 86.7 & 95 (21) \\
+getting virtual card & 46 & 87.0 & 96 (25) \\
+cancel transfer & 40 & 92.5 & 90 (20) \\
+exchange via app & 40 & 97.5 & 82 (17) \\
+age limit & 45 & 100.0 & 100 (13) \\
+card delivery estimate & 3 & 100.0 & 100 (1) \\
+edit personal details & 6 & 100.0 & 100 (3) \\
+\bottomrule\end{tabular}\end{table}

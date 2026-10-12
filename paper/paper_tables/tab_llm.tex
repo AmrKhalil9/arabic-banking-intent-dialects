@@ -1,0 +1,10 @@
+\begin{table}[t]\centering\small\caption{Qwen3.5-9B on the 400-message subsamples: accuracy (\%), share of answers that are not a valid intent number (\%), and median latency (ms), without and with 10 retrieved examples.}\label{tab:llm}
+\begin{tabular}{lrrrrrr}\toprule
+& \multicolumn{3}{c}{Zero-shot} & \multicolumn{3}{c}{10 retrieved}\\
+Test & Acc. & Invalid & ms & Acc. & Invalid & ms \\\midrule
+MSA & 68.8 & 0.5 & 219 & 92.8 & 0.0 & 406 \\
+Pal. & 60.8 & 0.2 & 220 & 86.5 & 0.0 & 405 \\
+Saudi & 62.0 & 0.5 & 220 & 82.2 & 0.0 & 404 \\
+Moroccan & 58.0 & 0.2 & 218 & 80.0 & 0.0 & 406 \\
+Tunisian & 54.2 & 1.8 & 212 & 69.2 & 0.0 & 394 \\
+\bottomrule\end{tabular}\end{table}

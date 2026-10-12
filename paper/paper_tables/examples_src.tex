@@ -1,0 +1,19 @@
+\documentclass[border=2pt]{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.05]{Amiri}
+\usepackage{booktabs}
+\begin{document}\small
+\begin{tabular}{@{}l r l l r@{}}\toprule
+Dialect & Message & Gold intent & Predicted & Conf.\\\midrule
+Saudi & \textarabic{إنت حاسبين فلوس غلط في ذا الصراف} & cash withdrawal charge & wrong amount of cash received & 0.99\\
+Saudi & \textarabic{إمتى يصير التحويل اللي علي متوفر في حسابي؟} & balance not updated after bank transfer & transfer timing & 0.98\\
+Saudi & \textarabic{لقيت عملية سحب بالبطاقة ماهي مصرحة} & card payment not recognised & cash withdrawal not recognised & 0.98\\
+Moroccan & \textarabic{راه خدمت الكيشي بعملة أجنبية و لكن التمن المطبق ماشي خاطئ !} & wrong exchange rate for cash withdrawal & card payment wrong exchange rate & 0.98\\
+Moroccan & \textarabic{واش يمكن لي نفتح البطاقة ديالي من خلال التطبيق؟} & pin blocked & card linking & 0.98\\
+Tunisian & \textarabic{\_علاش ما رجعتليش فلوسي بعد ماجبدت ؟} & wrong amount of cash received & Refund not showing up & 0.98\\
+Tunisian & \textarabic{شنيّة الخطيّة متاع التحويل في البانكة؟} & top up by bank transfer charge & transfer fee charged & 0.97\\
+\bottomrule\end{tabular}
+\end{document}

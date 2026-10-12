@@ -1,0 +1,13 @@
+\begin{table}[t]\centering\small\caption{Model size (millions of parameters), mean training time per run (minutes, one GPU), and median latency for one message (ms) on the GPU and, for the encoders, on 8 CPU threads.}\label{tab:efficiency}
+\begin{tabular}{lrrrr}\toprule
+System & Params & Train & GPU & CPU \\\midrule
+MARBERTv2 & 163 & 5 & 7.2 & 25.4 \\
+AraBERTv02 & 135 & 5 & 8.5 & 26.6 \\
+CAMeLBERT-mix & 109 & 5 & 7.0 & 23.9 \\
+XLM-R base & 278 & 7 & 6.6 & 31.3 \\
+Laya (RLCD) & 322 & 70 & 29.9 & -- \\
+Laya (CE) & 322 & 118 & 27.2 & -- \\
+Laya (12-way) & 322 & 45 & 24.2 & -- \\
+Qwen3.5-9B, zero-shot & $\approx$9{,}000 & -- & 218 & -- \\
+Qwen3.5-9B, 10 retrieved & $\approx$9{,}000 & -- & 403 & -- \\
+\bottomrule\end{tabular}\end{table}
