@@ -1,0 +1,9 @@
+# encoders, kNN, analysis
+torch==2.14.1
+transformers==5.19.0
+scikit-learn==1.9.1
+numpy==2.4.6
+# Laya decision model (separate environment was used)
+laya==0.3.4
+# tables and figures
+matplotlib==3.11.2
