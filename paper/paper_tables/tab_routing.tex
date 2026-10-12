@@ -1,0 +1,11 @@
+\begin{table*}[t]\centering\small\setlength{\tabcolsep}{4pt}\caption{Routing view. Left: accuracy (\%) at the level of 12 contact-centre categories (77-way predictions summed per category). Right: share of traffic (\%) that can be answered automatically at $\geq$90\% accuracy (selective prediction by confidence).}\label{tab:routing}
+\begin{tabular}{lrrrrrrrrrr}\toprule
+& \multicolumn{5}{c}{12-category accuracy} & \multicolumn{5}{c}{Coverage at 90\% accuracy}\\
+System & MSA & Pal. & Saudi & Moroccan & Tunisian & MSA & Pal. & Saudi & Moroccan & Tunisian \\\midrule
+MARBERTv2 & 96.1 & 94.7 & 93.2 & 86.6 & 69.8 & 100 & 99 & 90 & 74 & 32 \\
+AraBERTv02 & 96.1 & 95.1 & 91.8 & 87.8 & 70.3 & 100 & 100 & 87 & 78 & 37 \\
+bge-m3 $k$NN & 94.3 & 89.8 & 86.3 & 80.2 & 64.3 & 96 & 80 & 68 & 55 & 39 \\
+Laya (RLCD) & 90.6 & 88.0 & 83.1 & 79.0 & 58.7 & 86 & 77 & 58 & 49 & 6 \\
+Laya (CE) & 94.7 & 92.6 & 88.9 & 81.9 & 57.8 & 99 & 94 & 75 & 57 & 3 \\
+Laya (12-way) & 91.5 & 89.2 & 85.5 & 80.0 & 57.3 & 100 & 98 & 90 & 81 & 16 \\
+\bottomrule\end{tabular}\end{table*}

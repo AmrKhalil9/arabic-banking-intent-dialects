@@ -1,0 +1,464 @@
+[
+ {
+  "index": 0,
+  "label_ar": "آبل باي أو جوجل باي",
+  "label_en": "apple pay or google pay",
+  "category": "card_management"
+ },
+ {
+  "index": 1,
+  "label_ar": "إرجاع الدفع بالبطاقة؟",
+  "label_en": "reverted card payment?",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 2,
+  "label_ar": "إعادة الشحن عن طريق رسوم التحويل المصرفي",
+  "label_en": "top up by bank transfer charge",
+  "category": "top_up"
+ },
+ {
+  "index": 3,
+  "label_ar": "إلغاء التحويل",
+  "label_en": "cancel transfer",
+  "category": "transfer"
+ },
+ {
+  "index": 4,
+  "label_ar": "ابتلاع البطاقة",
+  "label_en": "card swallowed",
+  "category": "card_problem"
+ },
+ {
+  "index": 5,
+  "label_ar": "استرداد الأموال غير مرئي",
+  "label_en": "Refund not showing up",
+  "category": "refund"
+ },
+ {
+  "index": 6,
+  "label_ar": "البطاقات والعملات المدعومة",
+  "label_en": "supported cards and currencies",
+  "category": "card_management"
+ },
+ {
+  "index": 7,
+  "label_ar": "البطاقة الافتراضية لا تعمل",
+  "label_en": "virtual card not working",
+  "category": "card_problem"
+ },
+ {
+  "index": 8,
+  "label_ar": "البطاقة المفقودة أو المسروقة",
+  "label_en": "lost or stolen card",
+  "category": "card_problem"
+ },
+ {
+  "index": 9,
+  "label_ar": "البطاقة لا تعمل",
+  "label_en": "card not working",
+  "category": "card_problem"
+ },
+ {
+  "index": 10,
+  "label_ar": "التحقق من مصدر الأموال",
+  "label_en": "verify source of funds",
+  "category": "identity"
+ },
+ {
+  "index": 11,
+  "label_ar": "التعبئة عن طريق البطاقة",
+  "label_en": "topping up by card",
+  "category": "pin_security"
+ },
+ {
+  "index": 12,
+  "label_ar": "التعبئة عن طريق شحن البطاقة",
+  "label_en": "top up by card charge",
+  "category": "top_up"
+ },
+ {
+  "index": 13,
+  "label_ar": "الحصول على بطاقة احتياطية",
+  "label_en": "getting spare card",
+  "category": "card_management"
+ },
+ {
+  "index": 14,
+  "label_ar": "الحصول على بطاقة افتراضية",
+  "label_en": "getting virtual card",
+  "category": "card_management"
+ },
+ {
+  "index": 15,
+  "label_ar": "الحصول على بطاقة افتراضية يمكن التخلص منها",
+  "label_en": "get disposable virtual card",
+  "category": "card_management"
+ },
+ {
+  "index": 16,
+  "label_ar": "الحصول على بطاقة فعلية",
+  "label_en": "get physical card",
+  "category": "card_management"
+ },
+ {
+  "index": 17,
+  "label_ar": "الدفع المباشر للدين غير معروف",
+  "label_en": "direct debit payment not recognised",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 18,
+  "label_ar": "الدفع بالبطاقة المعلق",
+  "label_en": "pending card payment",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 19,
+  "label_ar": "الدفع بالبطاقة غير معترف به",
+  "label_en": "card payment not recognised",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 20,
+  "label_ar": "السحب النقدي غير معترف به",
+  "label_en": "cash withdrawal not recognised",
+  "category": "cash_atm"
+ },
+ {
+  "index": 21,
+  "label_ar": "الصرف عبر التطبيق",
+  "label_en": "exchange via app",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 22,
+  "label_ar": "المستفيد غير مسموح به",
+  "label_en": "beneficiary not allowed",
+  "category": "transfer"
+ },
+ {
+  "index": 23,
+  "label_ar": "الهاتف المفقود أو المسروق",
+  "label_en": "lost or stolen phone",
+  "category": "pin_security"
+ },
+ {
+  "index": 24,
+  "label_ar": "انتظار التحويل",
+  "label_en": "pending transfer",
+  "category": "transfer"
+ },
+ {
+  "index": 25,
+  "label_ar": "انهاء حساب",
+  "label_en": "terminate account",
+  "category": "account"
+ },
+ {
+  "index": 26,
+  "label_ar": "بطاقة على وشك الانتهاء",
+  "label_en": "card about to expire",
+  "category": "card_management"
+ },
+ {
+  "index": 27,
+  "label_ar": "بطاقة مخترقة",
+  "label_en": "compromised card",
+  "category": "card_problem"
+ },
+ {
+  "index": 28,
+  "label_ar": "تحرير التفاصيل الشخصية",
+  "label_en": "edit personal details",
+  "category": "account"
+ },
+ {
+  "index": 29,
+  "label_ar": "تحصيل رسوم التحويل",
+  "label_en": "transfer fee charged",
+  "category": "transfer"
+ },
+ {
+  "index": 30,
+  "label_ar": "تحقق من تعبئة الرصيد",
+  "label_en": "verify top up",
+  "category": "identity"
+ },
+ {
+  "index": 31,
+  "label_ar": "تحقق من هويتي",
+  "label_en": "verify my identity",
+  "category": "identity"
+ },
+ {
+  "index": 32,
+  "label_ar": "تعبئة الرصيد نقدًا أو بشيك",
+  "label_en": "top up by cash or cheque",
+  "category": "top_up"
+ },
+ {
+  "index": 33,
+  "label_ar": "تعبئة تلقائية",
+  "label_en": "automatic top up",
+  "category": "top_up"
+ },
+ {
+  "index": 34,
+  "label_ar": "تغيير رمز التعريف الشخصي",
+  "label_en": "change pin",
+  "category": "pin_security"
+ },
+ {
+  "index": 35,
+  "label_ar": "تفعيل بطاقتي",
+  "label_en": "activate my card",
+  "category": "card_management"
+ },
+ {
+  "index": 36,
+  "label_ar": "تقدير تسليم البطاقة",
+  "label_en": "card delivery estimate",
+  "category": "card_management"
+ },
+ {
+  "index": 37,
+  "label_ar": "تلقي الأموال",
+  "label_en": "receiving money",
+  "category": "transfer"
+ },
+ {
+  "index": 38,
+  "label_ar": "تلقي مبلغ خاطئ من النقد",
+  "label_en": "wrong amount of cash received",
+  "category": "cash_atm"
+ },
+ {
+  "index": 39,
+  "label_ar": "تم التحصيل مرتين",
+  "label_en": "transaction charged twice",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 40,
+  "label_ar": "تم تحصيل رسوم الدفع بالبطاقة",
+  "label_en": "card payment fee charged",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 41,
+  "label_ar": "تم رفض الدفع بالبطاقة",
+  "label_en": "declined card payment",
+  "category": "card_problem"
+ },
+ {
+  "index": 42,
+  "label_ar": "توقيت التحويل",
+  "label_en": "transfer timing",
+  "category": "transfer"
+ },
+ {
+  "index": 43,
+  "label_ar": "حد السن",
+  "label_en": "age limit",
+  "category": "identity"
+ },
+ {
+  "index": 44,
+  "label_ar": "حدود البطاقة التي يمكن التخلص منها",
+  "label_en": "disposable card limits",
+  "category": "card_management"
+ },
+ {
+  "index": 45,
+  "label_ar": "حدود التعبئة",
+  "label_en": "top up limits",
+  "category": "top_up"
+ },
+ {
+  "index": 46,
+  "label_ar": "دعم أجهزة الصراف الآلي",
+  "label_en": "atm support",
+  "category": "cash_atm"
+ },
+ {
+  "index": 47,
+  "label_ar": "دعم البلد",
+  "label_en": "country support",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 48,
+  "label_ar": "دعم العملات الورقية",
+  "label_en": "fiat currency support",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 49,
+  "label_ar": "ربط البطاقة",
+  "label_en": "card linking",
+  "category": "card_management"
+ },
+ {
+  "index": 50,
+  "label_ar": "رسوم إضافية على كشف الحساب",
+  "label_en": "extra charge on statement",
+  "category": "payment_dispute"
+ },
+ {
+  "index": 51,
+  "label_ar": "رسوم السحب النقدي",
+  "label_en": "cash withdrawal charge",
+  "category": "cash_atm"
+ },
+ {
+  "index": 52,
+  "label_ar": "رسوم الصرف",
+  "label_en": "exchange charge",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 53,
+  "label_ar": "رفض التحويل",
+  "label_en": "declined transfer",
+  "category": "transfer"
+ },
+ {
+  "index": 54,
+  "label_ar": "رفض السحب النقدي",
+  "label_en": "declined cash withdrawal",
+  "category": "cash_atm"
+ },
+ {
+  "index": 55,
+  "label_ar": "رمز التعريف الشخصي محظور",
+  "label_en": "pin blocked",
+  "category": "pin_security"
+ },
+ {
+  "index": 56,
+  "label_ar": "سعر الصرف",
+  "label_en": "exchange rate",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 57,
+  "label_ar": "سعر الصرف الخاطئ للدفع بالبطاقة",
+  "label_en": "card payment wrong exchange rate",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 58,
+  "label_ar": "سعر صرف خاطئ للسحب النقدي",
+  "label_en": "wrong exchange rate for cash withdrawal",
+  "category": "exchange_currency"
+ },
+ {
+  "index": 59,
+  "label_ar": "طلب استرداد",
+  "label_en": "request refund",
+  "category": "refund"
+ },
+ {
+  "index": 60,
+  "label_ar": "طلب بطاقة فعلية",
+  "label_en": "order physical card",
+  "category": "card_management"
+ },
+ {
+  "index": 61,
+  "label_ar": "عادت تعبئة الرصيد",
+  "label_en": "top up reverted",
+  "category": "top_up"
+ },
+ {
+  "index": 62,
+  "label_ar": "عدم التلامس لا يعمل",
+  "label_en": "contactless not working",
+  "category": "card_problem"
+ },
+ {
+  "index": 63,
+  "label_ar": "غير قادر على التحقق من الهوية",
+  "label_en": "unable to verify identity",
+  "category": "identity"
+ },
+ {
+  "index": 64,
+  "label_ar": "فشل التحويل",
+  "label_en": "failed transfer",
+  "category": "transfer"
+ },
+ {
+  "index": 65,
+  "label_ar": "فشل التعبئة",
+  "label_en": "top up failed",
+  "category": "top_up"
+ },
+ {
+  "index": 66,
+  "label_ar": "في انتظار التعبئة",
+  "label_en": "pending top up",
+  "category": "top_up"
+ },
+ {
+  "index": 67,
+  "label_ar": "في انتظار السحب النقدي",
+  "label_en": "pending cash withdrawal",
+  "category": "cash_atm"
+ },
+ {
+  "index": 68,
+  "label_ar": "فيزا أو ماستر كارد",
+  "label_en": "visa or mastercard",
+  "category": "card_management"
+ },
+ {
+  "index": 69,
+  "label_ar": "قبول البطاقة",
+  "label_en": "card acceptance",
+  "category": "card_management"
+ },
+ {
+  "index": 70,
+  "label_ar": "لم يتم تحديث الرصيد بعد التحويل المصرفي",
+  "label_en": "balance not updated after bank transfer",
+  "category": "transfer"
+ },
+ {
+  "index": 71,
+  "label_ar": "لم يتم تحديث الرصيد بعد الشيك أو الإيداع النقدي",
+  "label_en": "balance not updated after cheque or cash deposit",
+  "category": "cash_atm"
+ },
+ {
+  "index": 72,
+  "label_ar": "لم يستلم المستلم التحويل",
+  "label_en": "transfer not received by recipient",
+  "category": "transfer"
+ },
+ {
+  "index": 73,
+  "label_ar": "لماذا التحقق من الهوية",
+  "label_en": "why verify identity",
+  "category": "identity"
+ },
+ {
+  "index": 74,
+  "label_ar": "نسيان رمز المرور",
+  "label_en": "passcode forgotten",
+  "category": "pin_security"
+ },
+ {
+  "index": 75,
+  "label_ar": "نقل إلى الحساب",
+  "label_en": "transfer into account",
+  "category": "transfer"
+ },
+ {
+  "index": 76,
+  "label_ar": "وصول البطاقة",
+  "label_en": "card arrival",
+  "category": "card_management"
+ }
+]

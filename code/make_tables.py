@@ -81,7 +81,7 @@ if "layacoarse.test_msa.acc" in N:
                 " & ".join(f"{N[f'layacoarse.{s}.cov90']:.0f}" for s in T) + " \\\\")
 open(f"{OUT}/tab_routing.tex", "w").write(
     "\\begin{table*}[t]\\centering\\small\\setlength{\\tabcolsep}{4pt}\\caption{Routing view. Left: accuracy (\\%) at the level of 12 contact-centre categories (77-way "
-    "predictions summed per category). Right: share of traffic (\\%) that can be answered automatically at $\\geq$90\\% accuracy "
+    "predictions summed per category; Laya (12-way) is trained directly on the categories). Right: share of traffic (\\%) that can be answered automatically at $\\geq$90\\% accuracy "
     "(selective prediction by confidence).}\\label{tab:routing}\n\\begin{tabular}{l" + "r" * 10 + "}\\toprule\n"
     "& \\multicolumn{5}{c}{12-category accuracy} & \\multicolumn{5}{c}{Coverage at 90\\% accuracy}\\\\\n"
     "System & " + " & ".join(TN) + " & " + " & ".join(TN) + " \\\\\\midrule\n" + "\n".join(rows) + "\n\\bottomrule\\end{tabular}\\end{table*}\n")

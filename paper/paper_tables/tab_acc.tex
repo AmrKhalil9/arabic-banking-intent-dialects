@@ -1,0 +1,11 @@
+\begin{table*}[t]\centering\small\setlength{\tabcolsep}{4pt}\caption{Accuracy (\%) on the official test sets, mean $\pm$ standard deviation over three seeds. All systems are trained on (or, for $k$NN, retrieve from) the MSA and Palestinian training split only; Saudi, Moroccan and Tunisian are unseen dialects.}\label{tab:acc}
+\begin{tabular}{lrrrrr}\toprule
+System & MSA & Pal. & Saudi & Moroccan & Tunisian \\\midrule
+MARBERTv2 & \textbf{91.8}\,{\scriptsize$\pm$0.2} & 89.7\,{\scriptsize$\pm$0.4} & \textbf{85.7}\,{\scriptsize$\pm$0.2} & 76.7\,{\scriptsize$\pm$0.4} & \textbf{57.8}\,{\scriptsize$\pm$0.1} \\
+AraBERTv02 & \textbf{91.8}\,{\scriptsize$\pm$0.2} & \textbf{90.1}\,{\scriptsize$\pm$0.1} & 83.2\,{\scriptsize$\pm$0.1} & \textbf{78.0}\,{\scriptsize$\pm$0.2} & 57.0\,{\scriptsize$\pm$1.3} \\
+CAMeLBERT-mix & 91.2\,{\scriptsize$\pm$0.4} & 88.8\,{\scriptsize$\pm$0.4} & 79.7\,{\scriptsize$\pm$0.3} & 72.6\,{\scriptsize$\pm$0.6} & 42.9\,{\scriptsize$\pm$2.2} \\
+XLM-R base & 90.3\,{\scriptsize$\pm$0.1} & 86.7\,{\scriptsize$\pm$0.1} & 78.6\,{\scriptsize$\pm$0.8} & 69.2\,{\scriptsize$\pm$0.1} & 50.9\,{\scriptsize$\pm$0.4} \\
+bge-m3 $k$NN & 88.4 & 81.1 & 75.9 & 67.0 & 53.1 \\
+Laya (RLCD) & 83.2\,{\scriptsize$\pm$4.1} & 78.8\,{\scriptsize$\pm$5.5} & 70.9\,{\scriptsize$\pm$4.9} & 64.1\,{\scriptsize$\pm$3.7} & 37.6\,{\scriptsize$\pm$0.6} \\
+Laya (CE) & 89.5\,{\scriptsize$\pm$0.1} & 86.2\,{\scriptsize$\pm$0.2} & 78.9\,{\scriptsize$\pm$0.5} & 69.6\,{\scriptsize$\pm$0.8} & 41.9\,{\scriptsize$\pm$0.8} \\
+\bottomrule\end{tabular}\end{table*}

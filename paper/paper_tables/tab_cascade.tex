@@ -1,0 +1,9 @@
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{4pt}\caption{Confidence cascade on the LLM subsample (400 items per test set): MARBERTv2 answers when its confidence is at least $\tau=0.60$ (chosen on validation), otherwise the retrieval-augmented LLM answers. Accuracy (\%) and share of traffic routed to the LLM.}\label{tab:cascade}
+\begin{tabular}{lrrrr}\toprule
+Test & Encoder & LLM & Cascade & Routed (\%) \\\midrule
+MSA & 93.0 & 92.8 & \textbf{93.2} & 4.5 \\
+Pal. & \textbf{91.0} & 86.5 & 90.8 & 7.0 \\
+Saudi & \textbf{86.0} & 82.2 & \textbf{86.0} & 11.0 \\
+Moroccan & 74.5 & \textbf{80.0} & 79.2 & 20.2 \\
+Tunisian & 59.2 & \textbf{69.2} & 67.5 & 33.0 \\
+\bottomrule\end{tabular}\end{table}

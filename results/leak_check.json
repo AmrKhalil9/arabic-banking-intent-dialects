@@ -1,0 +1,34 @@
+{
+ "test_saudi": {
+  "n": 3580,
+  "nn_in_msa_test_share": 0.5648,
+  "median_sim_train": 0.8467,
+  "median_sim_msa_test": 0.8616,
+  "near_duplicate_train_ge_0.95": 251,
+  "msa_test_nn_same_label": 0.8877
+ },
+ "test_moroccan": {
+  "n": 3574,
+  "nn_in_msa_test_share": 0.3822,
+  "median_sim_train": 0.7717,
+  "median_sim_msa_test": 0.7681,
+  "near_duplicate_train_ge_0.95": 47,
+  "msa_test_nn_same_label": 0.7706
+ },
+ "test_tunisian": {
+  "n": 999,
+  "nn_in_msa_test_share": 0.3183,
+  "median_sim_train": 0.7116,
+  "median_sim_msa_test": 0.6931,
+  "near_duplicate_train_ge_0.95": 0,
+  "msa_test_nn_same_label": 0.6537
+ },
+ "test_pal": {
+  "n": 3807,
+  "nn_in_msa_test_share": 0.3462,
+  "median_sim_train": 0.8638,
+  "median_sim_msa_test": 0.8411,
+  "near_duplicate_train_ge_0.95": 352,
+  "msa_test_nn_same_label": 0.8547
+ }
+}
